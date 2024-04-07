@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(181, 113, 249);">
+    <h1>Name</h1>
+        <form id="nameForm">
+            <input type="text" id="name"> <button type="button" onclick="demo1()"
+             >Submit</button>
+        </form>
+        <br>
+        <p id="demo1"></p>
+
+        <script>
+           function demo1() {
+    var userName = document.getElementById("name").value;
+    document.getElementById("demo1").innerHTML = "Hello, " + userName;
+  }
+        </script>
+</body>
+</html>
